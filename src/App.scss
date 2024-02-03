@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+div[role='alert'] {
+  color: white;
+  margin-top: 1em;
+}
