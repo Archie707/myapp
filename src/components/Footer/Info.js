@@ -11,15 +11,15 @@ const Info = () => {
       <h2>Znajdź nas!</h2>
       <div className="footer-info-icon">
         <LocationOnOutlinedIcon />
-        <p>Kraków, Polska</p>
+        <p>Wroclaw, Polska</p>
       </div>
       <div className="footer-info-icon">
         <PhoneAndroidOutlinedIcon />
-        <p>660 123 456</p>
+        <p>571 865 473</p>
       </div>
       <div className="footer-info-icon">
         <EmailOutlinedIcon />
-        <p>valhallageckos@gmail.com</p>
+        <p>mckwak@gmail.com</p>
       </div>
     </div>
   );

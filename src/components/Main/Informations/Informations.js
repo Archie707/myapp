@@ -15,15 +15,14 @@ const Informations = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       className="informations">
-      <h2>Wiedza w pigułce</h2>
+      <h2>OBECNE PROMOCJE</h2>
       <figure className="info-img-box">
         <img
-          src="https://content.r9cdn.net/rimg/dimg/42/73/d6b825bb-city-44359-163fa64628e.jpg?crop=true&width=1366&height=768&xhint=2564&yhint=1732"
+          src="https://img.freepik.com/free-psd/delicious-burger-food-menu-facebook-cover-template_120329-1684.jpg?t=st=1709283280~exp=1709286880~hmac=25fd20bd7db9ef6582012b20fda690364109076f4905c8b37d3deb6112d3c1b4&w=996"
           alt="Ise of Pins"
           title="logo"
         />
-        <p>Tak wygląda Isle of Pins - naturalne środowisko gekona orzęsionego.</p>
-      </figure>
+        </figure>
       <div className="info-accordion">
         {geckoInfo.map((item) => (
           <Accordion>

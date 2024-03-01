@@ -18,7 +18,7 @@ const Store = () => {
       className="store">
       <div className="main-container">
         {/* BANNER PANEL */}
-        <Banner name={'Wiosenne zwierzo-branie!'} discount={'100'} more={'#'} />
+        <Banner name={'TYLKO U NAS'} discount={'100'} more={'#'} />
 
         {/* STORE MENU CATEGORY & STORE ITEMS PANEL */}
         <SubMenuContainer view={view} setView={setView} />

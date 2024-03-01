@@ -14,32 +14,14 @@ const AboutUs = () => {
         <div className="about-img-box" />
         <div className="about-content">
           <p className="blockquote">
-            "Boimy się tego, czego nie znamy. Jeśli coś jest skryte pod zasłoną ciemności i
-            niepewności, jest tajemnicą. Pozwolenie, by światło przedarło się przez tą ciemność
-            sprawia, że wszystko staje się jasne."
+            "Historia naszej restauracji fast food zaczyna się od prostego marzenia o stworzeniu miejsca, gdzie każdy może cieszyć się szybkim, ale zdrowym i pysznym jedzeniem. W obecnych czasach, kiedy życie toczy się w błyskawicznym tempie, a ludzie coraz bardziej cenią sobie swój czas, zauważyliśmy lukę na rynku. Chcieliśmy oferować coś więcej niż tylko tradycyjne fast foody; nasz cel to połączenie szybkości z jakością i smakiem."
           </p>
           <p className="text-content">
-            <span>Hodowla Valhalla Geckos</span> oficjalnie powstała w grudniu 2020 roku. Od tego
-            czasu systematycznie się rozrasta, a ilość podopiecznych i Nasza wiedza na temat
-            zwierząt terrarystycznych wciąż rośnie.
-            <br />
-            <br />
-            Pierwsze styczności ze zwierzętami terrarystycznymi miałem już w podstawówce, gdzie na
-            specjalnie zorganizowanym dla dzieci pokazie po raz pierwszy w życiu trzymałem na szyi
-            dorosłego Boa dusiciela. Być może to właśnie od tego zdarzenia gdzieś głęboko w sercu
-            zakiełkowało ziarno z którego wyrosła pasja i miłość do zwierząt terrarystycznych.
-            Popularny w tamtych czasach{' '}
-            <a rel="noreferrer" target="_blank" href="https://pl.wikipedia.org/wiki/Steve_Irwin">
-              Steve Irwin - Łowca Krokodyli
-            </a>{' '}
-            - będący hitem na kanale Animal Planet, którego uwielbiałem oglądać tylko tą pasję
-            wzmocnił.
-            <br />
-            <br />
-            Profesjonalnie terrarystyka zagościła w moim życiu w czasach szkoły średniej i studiów.
-            W szczytowym okresie posiadałem około 50 gatunków ptaszników. Z czasem miejsce
-            ptaszników zajęły gady, a na chwilę obecną w Naszym domu opiekujemy się gekonami
-            orzęsionymi oraz gekonami płaczącymi. Nie jest to jednak nasze ostatnie słowo!
+            Współzałożyciele, trójka przyjaciół z długoletnim doświadczeniem w gastronomii i pasją do gotowania, postanowili połączyć siły. Każdy z nich wnosił coś wyjątkowego: kreatywność, umiejętności zarządzania oraz wiedzę o zdrowym żywieniu. Razem stworzyli koncepcję, która miała zmienić postrzeganie fast foodów.
+
+            "Rozpoczęli od przeprowadzenia badań rynku, aby zrozumieć, czego klienci oczekują od idealnego posiłku 'na szybko'. W odpowiedzi na te oczekiwania, zaprojektowali menu, które łączyło lokalne składniki z międzynarodowymi smakami, tworząc unikalne dania, które można było szybko przygotować, nie tracąc przy tym na jakości.
+
+            Kluczowym momentem było znalezienie idealnej lokalizacji. Chcieli miejsca, które będzie łatwo dostępne zarówno dla pieszych, jak i kierowców, a także blisko centrów biznesowych i akademickich. Po miesiącach poszukiwań znaleźli idealny lokal na obrzeżach ruchliwej dzielnicy, z dużym potencjałem na przyciągnięcie różnorodnych grup klientów.
           </p>
         </div>
       </div>

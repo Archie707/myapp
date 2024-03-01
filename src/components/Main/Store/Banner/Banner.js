@@ -7,9 +7,9 @@ const Banner = ({ name, discount, more }) => {
     <div className="banner-container">
       <h3>{name}</h3>
       <p>
-        Uzyskaj zniżke za każde wydane <span>{`${discount} ${currency}`}</span>{" "}
+        Uzyskaj rabat za każde wydane <span>{`${discount} ${currency}`}</span>{" "}
       </p>
-      <a href={more}>Zobacz</a>
+      <a href={more}>Oferta</a>
     </div>
   );
 };

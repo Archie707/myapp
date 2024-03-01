@@ -71,7 +71,7 @@ const Contact = () => {
         <br />
         <div className="captcha">
           <input className="submit-input" type="submit" value="Wyślij" />
-          <ReCAPTCHA sitekey="6LeMjrMeAAAAADGl_cIPuxbseIf_jpN7o4s_bqmD" onChange={handleCaptcha} />
+          <ReCAPTCHA sitekey="6Ld9a4MpAAAAAPKkPbHdoJF5HUs_3GOh8ua4Y0Fl" onChange={handleCaptcha} />
         </div>
       </form>
       <div className="footer-result">

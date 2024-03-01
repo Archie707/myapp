@@ -22,14 +22,9 @@ const NavbarDesktop = () => {
       offsetValue: -70,
       path: 'shop'
     },
+
     {
       title: 'Promocje',
-      toWaypoint: 'main',
-      offsetValue: -70,
-      path: 'geckos'
-    },
-    {
-      title: 'Informacje',
       toWaypoint: 'main',
       offsetValue: -70,
       path: 'informations'

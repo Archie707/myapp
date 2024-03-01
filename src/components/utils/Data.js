@@ -2,69 +2,6 @@
 // import {  useSelector } from 'react-redux';
 // import { changeSection, sectionValue } from '../../redux/features/sectionSlice'
 
-// const activePathRoute = useSelector(sectionValue);
-
-//IMAGES
-import gecko from '../../images/gecko.jpg';
-import spider from '../../images/spider.jpg';
-import Mia from '../../images/breeding-geckos/mia.jpg';
-import Freya from '../../images/breeding-geckos/freya.jpg';
-import Loki from '../../images/breeding-geckos/loki.jpg';
-import placzki from '../../images/breeding-geckos/placzki.jpg';
-
-//ICONS
-import HomeIcon from '@mui/icons-material/Home';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import PetsIcon from '@mui/icons-material/Pets';
-import InfoIcon from '@mui/icons-material/Info';
-import PersonIcon from '@mui/icons-material/Person';
-import EmailIcon from '@mui/icons-material/Email';
-
-// const navData = [
-//   {
-//     title: 'Home',
-//     toWaypoint: 'header',
-//     offsetValue: -100,
-//     menuIcon: <HomeIcon />,
-//     path: { activePathRoute }
-//   },
-//   {
-//     title: 'Sklep',
-//     toWaypoint: 'main',
-//     offsetValue: -70,
-//     menuIcon: <ShoppingCartIcon />,
-//     path: 'shop'
-//   },
-//   {
-//     title: 'Nasze gekony',
-//     toWaypoint: 'main',
-//     offsetValue: -70,
-//     menuIcon: <PetsIcon />,
-//     path: 'geckos'
-//   },
-//   {
-//     title: 'Informacje',
-//     toWaypoint: 'main',
-//     offsetValue: -70,
-//     menuIcon: <InfoIcon />,
-//     path: 'informations'
-//   },
-//   {
-//     title: 'O nas',
-//     toWaypoint: 'main',
-//     offsetValue: -70,
-//     menuIcon: <PersonIcon />,
-//     path: 'about'
-//   },
-//   {
-//     title: 'Kontakt',
-//     toWaypoint: 'footer',
-//     offsetValue: -70,
-//     menuIcon: <EmailIcon />,
-//     path: { activePathRoute }
-//   }
-// ];
-
 const sliderData = [
   {
     id: 0,
@@ -95,455 +32,400 @@ const sliderData = [
   }
 ];
 
-const geckos = [
-  {
-    name: 'Mia',
-    imgSrc: Mia,
-    species: 'Gekon orzęsiony (Correlophus ciliatus)',
-    morph: 'Full Pinstripe Harlequin',
-    date: '18-12-2020',
-    sex: 'female'
-  },
-  {
-    name: 'Freya',
-    imgSrc: Freya,
-    species: 'Gekon orzęsiony (Correlophus ciliatus)',
-    morph: 'Halloween Extreme Harlequin',
-    date: '6-10-2021',
-    sex: 'female'
-  },
-  {
-    name: 'Loki',
-    imgSrc: Loki,
-    species: 'Gekon orzęsiony (Correlophus ciliatus)',
-    morph: 'Reverse Pinstripe',
-    date: '14-02-2021',
-    sex: 'male'
-  },
-  {
-    name: 'Płaczki',
-    imgSrc: placzki,
-    species: 'Gekon płaczący (Lepidodactylus lugubris)',
-    morph: 'Classic - stado 10 sztuk',
-    date: '07-08-2020',
-    sex: 'female'
-  }
-];
-
 const storeMenu = [
   {
     id: 1,
-    itemId: 'gecko01',
+    itemId: 'Burgery',
     name: 'Burgery',
     imgSrc: 'https://img.freepik.com/free-photo/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.jpg?w=826&t=st=1706956393~exp=1706956993~hmac=867d8354ca3de7fcda3c66872b5cb2e5fe03acd405e26a57a7b22a93e6ea5547'
   },
   {
     id: 2,
-    itemId: 'frog01',
+    itemId: 'Wrapy',
     name: 'Wrapy',
     imgSrc:
       'https://img.freepik.com/free-photo/side-view-shawarma-with-fried-potatoes-board-cookware_176474-3215.jpg?w=826&t=st=1706956142~exp=1706956742~hmac=1707652d4421e5437f796b00cc03a2abdcd01d3ac32dc31b35794fbd667c6577'
   },
   {
     id: 3,
-    itemId: 'snake01',
+    itemId: 'Sandwiche',
     name: 'Sandwiche',
     imgSrc:
       'https://img.freepik.com/free-photo/fresh-tasty-sandwich_144627-17226.jpg?w=1060&t=st=1706956187~exp=1706956787~hmac=4ddea508ad6ae4f99341de18e4c217ed48f1d06766d574734557f4220c0a9646'
   },
   {
     id: 4,
-    itemId: 'spider01',
+    itemId: 'French Fries',
     name: 'French Fries',
     imgSrc:
       'https://img.freepik.com/free-vector/french-fries-with-different-sauce_1308-133806.jpg?w=740&t=st=1706956235~exp=1706956835~hmac=1f40912cbe1ec81c066f7bfe4277d4703291dc597042e71ad9aad33f2681d5b3'
   },
   {
     id: 5,
-    itemId: 'bug01',
+    itemId: 'Meals',
     name: 'Meals',
     imgSrc:
-      'https://img.freepik.com/free-vector/french-fries-with-different-sauce_1308-133806.jpg?w=740&t=st=1706956235~exp=1706956835~hmac=1f40912cbe1ec81c066f7bfe4277d4703291dc597042e71ad9aad33f2681d5b3'
+      'https://img.freepik.com/premium-photo/american-fast-food-hamburgers-french-fries-hot-dogs-fast-food-unhealthy-eating-concept-top-view_114941-2408.jpg?w=1380'
   },
   {
     id: 6,
-    itemId: 'plant01',
+    itemId: 'Desery',
     name: 'Desery',
     imgSrc:
       'https://img.freepik.com/free-photo/sainthonore-cake-with-chocolate-raspberry_661915-252.jpg?w=1380&t=st=1706956266~exp=1706956866~hmac=d543777a870ddd69b4b470d41307ca3da631ef6841b3134121ff33dc721ebd6a'
   },
   {
     id: 7,
-    itemId: 'other01',
+    itemId: 'Drinks',
     name: 'Drinks',
-    imgSrc: 'https://img.freepik.com/premium-photo/cola-splash-can_36845-22.jpg?w=740'
+    imgSrc: 'https://img.freepik.com/premium-photo/coca-cola-can-black-background-with-water-drops_674594-14583.jpg?w=1380'
   }
 ];
 
 const storeItems = [
   {
-    name: 'geckos',
+    name: 'Burgers',
     content: [
       {
         id: 1,
-        name: 'Felsuma madagaskarska',
-        imgSrc: 'https://na-pulpit.com/zdjecia/jaszczurka-gekon-zielony.jpeg',
-        price: 350,
+        name: 'MCkwak Double Burger',
+        imgSrc: 'https://img.freepik.com/free-photo/delicious-burger-with-many-ingredients-isolated-white-background-tasty-cheeseburger-splash-sauce_90220-1266.jpg?t=st=1709260471~exp=1709264071~hmac=a360345be133f0d2ed02d11e9181b776908fd6866f4477e689c55d457cabfc7f&w=740',
+        price: 35,
         description:
-          'Felsuma madagaskarska Phelsuma madagascariensis to najładniejszy gekon o aktywności dziennej. Zamieszkuje wyspę Madagaskar oraz kilka innych pobliskich wysepek. Zamieszkuje suche lasy i ich obrzeża, często też jest widywany blisko osad ludzkich. Ta nieśmiała jaszczurka, jeśli ma dobre warunki bytowe dożywa nawet 20 lat.'
+          'Double Burger to kulinarna uczta dla miłośników fast food, która podwaja przyjemność z jedzenia. Składający się z dwóch soczystych, doskonale przyprawionych kotletów wołowych, umieszczonych między świeżo upieczonymi bułkami, jest kwintesencją smaku i sytości. Warstwy chrupiącej sałaty, dojrzałego pomidora i pikantnego sosu dodają każdemu kęsowi wyrafinowanego smaku. Ser cheddar, rozpływający się między kotletami, łączy wszystkie składniki w idealną całość. Double Burger to nie tylko posiłek, ale obietnica kulinarnej podróży, która zadowoli nawet najbardziej wymagające podniebienia.'
       },
       {
         id: 2,
-        name: 'Gekon orzęsiony',
+        name: 'Classic Beefy Delight',
         imgSrc:
-          'https://www.terrariumquest.com/wp-content/uploads/2019/02/lizard-crested-gecko-e1551071333649.jpg',
-        price: 300,
+          'https://img.freepik.com/free-photo/delicious-burgers-studio_23-2150902148.jpg?t=st=1709261051~exp=1709264651~hmac=4c6d9644c1a62f65631b0962a0adbc90fac771a7ac4a265db87beda6348f4dae&w=996',
+        price: 31.70,
         description:
-          "Bardzo ładny i popularny gekon występujący w licznych odmianach barwnych. Gekon jest endemicznym gatunkiem występującym na tropikalnych wyspach Nowej Kaledoni. Wszystkożerny, można podawać mu owady, a także specjalne papki typy 'pangea'. Nie wolno zapominać o suplementowaniu wapnia i witamin."
+          "Ten burger to esencja smaku, z dwoma soczystymi, grillowanymi kotletami wołowymi, klasycznym serem cheddar, świeżymi liśćmi sałaty, pomidorem, cebulą i pikantnym sosem. Idealny wybór dla miłośników tradycyjnych smaków.."
       },
       {
         id: 3,
-        name: 'Gekon płaczący',
-        imgSrc: 'https://live.staticflickr.com/2922/33168452234_2959707c8a_b.jpg',
-        price: 60,
+        name: 'Spicy Chicken Twist',
+        imgSrc: 'https://img.freepik.com/premium-photo/big-double-cheddar-cheeseburger-with-chicken-cutlet_147620-1306.jpg?w=900',
+        price: 33.20,
         description:
-          'Płaczki to jedne z mniejszych (dorasta do 10 cm z ogonem), ale niezwykle popularnych gekonów. Wydają charakterystyczne odgłosy czik, czik, czik. Zaleca się hodować je w grupie (5-10 osobników). Rozmnażają się partenogenetycznie (samice same z siebie rodzą swoje klony), a więc samce niemal nie istnieją w hodowlach'
+          'Pikantny burger z kurczakiem to połączenie delikatnie panierowanego filetu z kurczaka z pikantnym sosem chipotle, sałatą, pomidorem i plastrami awokado. Dla tych, którzy lubią połączenie ostrości i świeżości.'
       },
       {
         id: 4,
-        name: 'Gekon lamparci',
-        imgSrc: 'http://justfunfacts.com/wp-content/uploads/2020/05/leopard-gecko.jpg',
-        price: 250,
+        name: 'Veggie Garden Feast',
+        imgSrc: 'https://img.freepik.com/free-photo/front-view-vegetarian-burger-counter-with-tomatoes_23-2148784525.jpg?t=st=1709261183~exp=1709264783~hmac=0b958c215f97943599c04d4227ac9fe22edfab9bf85331569358c3ab1dd7d288&w=996',
+        price: 25.90,
         description:
-          'Eublefar lamparci to jaszczurka pochodząca z pustynnych i półpustynnych terenów Azji. Jest bardzo spokojna oraz łatwo przyzwyczaja się do człowieka, przez co jest popularną jaszczurką w hodowli. Eublefary te mogą mieć bardzo dużo odmian barwnych, dzięki czemu ich kolorystyka jest różnorodna. Jaszczurka polecana dla początkujących.'
+          'Burger wegetariański, w którym główną rolę gra grillowany kotlet z ciecierzycy, podawany z warzywami grillowanymi, hummusem, i sosem jogurtowym. Doskonała opcja dla poszukujących zdrowszej alternatywy'
       },
       {
         id: 5,
-        name: 'Gekon olbrzymi',
+        name: 'Cheese Lovers Dream',
         imgSrc:
-          'https://thumbs.dreamstime.com/b/new-caledonian-giant-gecko-rhacodactylus-leachianus-largest-species-world-endemic-to-59865325.jpg',
-        price: 650,
+          'https://img.freepik.com/free-photo/still-life-delicious-american-hamburger_23-2149637309.jpg?t=st=1709261093~exp=1709264693~hmac=489a7f91df49d801b84edd44f9a83bdf57ce8c19e5e0766d6897fd12cbc465a5&w=1380',
+        price: 44.10,
         description:
-          'Jest to największy obecnie znany gekon. Dorosły osobnik Gekona olbrzymiego (Rhacodactylus leachianus) osiąga rozmiar do 35 centymetrów oraz może ważyć nawet 500 gramów. Jego naturalne środowisko występowania to wyłącznie lasy deszczowe Nowej Kaledonii. Głównie zamieszkuje owocujące drzewa, które dostarczają mu niezbędny pokarm.'
+          'Dla fanów sera, ten burger z potrójną porcją sera: cheddar, gouda i mozzarella, w towarzystwie dwóch wołowych kotletów i klasycznych dodatków, to prawdziwy raj na talerzu.'
       },
       {
         id: 6,
-        name: 'Gekon toke',
-        imgSrc: 'https://www.tapeciarnia.pl/tapety/normalne/256727_gekon_jaszczurka_drzewo.jpg',
-        price: 450,
+        name: 'Mushroom Melt',
+        imgSrc: 'https://img.freepik.com/premium-photo/vegetarian-burger-made-with-mixture-vegetables-products-such-as-tofu-seitan_783571-4107.jpg?w=1380',
+        price: 33.50,
         description:
-          'Gekon toke to jeden z największych gatunków wśród gekonów, który swoją nazwę zawdzięcza nietypowym zwyczajom godowym samców. To trudna do oswojenia jaszczurka. Wobec ludzi są zwykle nieufne i agresywne, często gryzą, dlatego bez potrzeby nie należy przenosić ich z terrarium. W sytuacji zdenerwowania toke wydają charakterystyczne dźwięki, podnoszą się na łapach i otwierają pyski.'
+          'Dla miłośników grzybów, ten burger oferuje grillowane kotlety wołowe z obfitą porcją pieczarek, serem szwajcarskim, sałatą, cebulą i kremowym sosem pieczarkowym. Wyjątkowo smakowita kompozycja'
       },
       {
         id: 7,
-        name: 'Gekon Williamsa',
+        name: 'Bacon Bliss',
         imgSrc:
-          'https://www.wykop.pl/cdn/c3201142/comment_Bso7lLrTWSfRo9iJb9Pp0jcrwyKve3I9,w1200h627f.jpg',
-        price: 550,
+          'https://img.freepik.com/free-photo/big-sandwich-hamburger-burger-with-beef-cheese-tomato-fried-bacon_2829-14034.jpg?t=st=1709261155~exp=1709264755~hmac=74ef8c11b3600ee977eae3392ad9e86497248c4dd50ab6dcdcf8c77dbe484b8b&w=740',
+        price: 39.90,
         description:
-          'Jest to gatunek endemiczny występujący jedynie w tropikalnym lesie Tanzanii. Gekony te osiągają od 6 do 10 cm długości ciała. Cechą charakterystyczną tego gatunku jest piękne, niebiesko-szafirowe ubarwienie samców. Samice ubarwione są w odcieniach kolorów zielonego, oliwkowego lub brązowego. Są to gekony o aktywności dziennej, które w naturze większość czasu spędzają na drzewach.'
+          'Burger, w którym główną rolę odgrywa chrupiący bekon, połączony z dwoma kotletami wołowymi, serem cheddar, sałatą, pomidorem i sosem majonezowym. Idealny dla tych, którzy uwielbiają smak bekonu.'
       }
     ]
   },
   {
-    name: 'frogs',
+    name: 'Wrapy',
     content: [
       {
         id: 1,
-        name: 'Drzewołaz niebieski',
+        name: 'Klasyczny Twist Wrap',
         imgSrc:
-          'https://upload.wikimedia.org/wikipedia/commons/6/6f/Dendrobates_azureus_%28Dendrobates_tinctorius%29_Edit.jpg',
-        price: 160,
+          'https://img.freepik.com/free-photo/arabic-shaurma-with-stuffings-lavash_114579-3702.jpg?t=st=1709263081~exp=1709266681~hmac=50b7d8736e2b8d9b8f7ec70da61c8b1ff1c93644bfe1f6a8044b4ada496dca01&w=1380',
+        price: 16.30,
         description:
-          'Drzewołaz Lazurowy, zwany także Drzewołazem Niebieskim lub Błękitnym. Dendrobates azureus występuje jedynie w południowej części Ameryki Południowej. Samce i samice są dość podobne do siebie. Jednakże samica jest większa i bardziej masywna niż samiec. Drzewołazy te są aktywne przede wszystkim za dnia.'
+          'Ten wrap to doskonała kombinacja tradycyjnych smaków w nowoczesnej formie. Zawiera soczystą, grillowaną pierś z kurczaka, świeże sałaty, pomidory, cebulę i kremowy sos czosnkowy, wszystko zawinięte w miękką, ciepłą tortillę. Idealny wybór dla tych, którzy cenią sobie klasyczne smaki z odrobiną nowoczesności..'
       },
       {
         id: 2,
-        name: 'Chwytnica kolorowa',
+        name: 'Ognisty Meksykański Wrap',
         imgSrc:
-          'https://www.redeyedtreefrog.org/wp-content/uploads/2010/01/is-red-eyed-tree-frog-poisonous1.jpg',
-        price: 180,
+          'https://img.freepik.com/premium-photo/shawarma-rolled-lavash-with-grilled-meat-vegetables-wooden-background_124865-658.jpg?w=1380',
+        price: 18.00,
         description:
-          'Średniej wielkości rzekotka o smukłym ciele z długimi kończynami. Palce zakończone przylgami co umożliwia jej wspinanie się po gładkich, śliskich powierzchniach. Głowa stosunkowo duża z wyłupiastymi oczami o rubinowo-czerwonej tęczówce. Podstawowym ubarwieniem jest zieleń, najczęściej w odcieniu szmaragdowym, spód ciała jaśniejszy, kremowy. Palce barwy pomarańczowej.'
+          'Ognisty Meksykański Wrap łączy w sobie pikantne kawałki kurczaka, czerwoną fasolę, ostre jalapenos, sycący ryż i łagodzący guacamole. Zawinięty w chrupiącą tortillę, każdy kęs dostarcza wybuchu meksykańskich smaków.'
       },
       {
         id: 3,
-        name: 'Drzewołaz żółtopasy',
+        name: 'Wegański Zielony Wrap',
         imgSrc:
-          'https://magazynakwarium.pl/wp-content/uploads/2021/04/Dendrobates-leucomelas.-Fot.-Pawel-Czapczyk.jpg',
-        price: 130,
+          'https://img.freepik.com/free-photo/tortilla-wraps-with-meat-fresh-vegetables_2829-15842.jpg?t=st=1709263311~exp=1709266911~hmac=917f06d7cae305a1383dd91ff40ca18b61d0936e7f41032e834d01d757dae9bd&w=740',
+        price: 17.80,
         description:
-          'Drzewołaz żółtopasy, zwany też arlekinem to żabka z rodziny drzewołazów. Ma charakterystyczny, trzyczęściowy, żółty wzór na czarnym ciele, charakterystyczny dla poszczególnych osobników. W skórze znajdują się gruczoły jadowe. Toksyny występujące w jadzie pochodzą między innymi od jadowitych mrówek, które ta żaba zjada. Samice są nieco większe od samców.'
+          'Ten wrap jest prawdziwym skarbem dla wegan. Zawiera mieszankę grillowanych warzyw sezonowych, hummus, świeży szpinak i kawałki awokado. Podany w tortilli pełnoziarnistej, jest zarówno pożywny, jak i wyjątkowo smakowity.'
       },
       {
         id: 4,
-        name: 'Ropucha afrykańska',
+        name: 'Wrap z Łososiem i Awokado',
         imgSrc:
-          'https://www.reptarium.cz/content/photo_01/Amietophrynus-regularis-03000002825_01.jpg',
-        price: 80,
+          'https://img.freepik.com/free-photo/kegs-pancakes-with-red-fish_2829-14043.jpg?t=st=1709263600~exp=1709267200~hmac=dd44047a65b312c48d689c2f985c8c94145a8f212287ea8975df5d872a72ff5c&w=1380',
+        price: 31.60,
         description:
-          'Ropucha Afrykańska zamieszkuje tereny Afryki m.in Egipt, Gambia, Kenia, Mali, Nigeria. Samce osiągają ok. 6-9cm długości ciała, samice są nieco większe i dorastają do ok. 7-13cm. Są bardzo aktywne i często zwiedzają swoje miejsce zamieszkania. Dosyć łatwe w hodowli i polecane jako pierwszy zwierzak dla początkujących terrarystów.'
+          'Delikatny, grillowany łosoś połączony z kremowym awokado, chrupiącymi listkami sałaty, cienkimi plasterkami ogórka i delikatnym sosem jogurtowym, wszystko zawinięte w miękką tortillę. To wykwintne połączenie smaków, które zadowoli każdego smakosza.'
       },
       {
         id: 5,
-        name: 'Kumak nizinny',
+        name: 'Słodko-Ostry Wrap z Krewetkami',
         imgSrc:
-          'http://www.fotoprzyroda.pl/uploads/gallery/album_78/med_gallery_3763_78_224091.jpg',
-        price: 120,
+          'https://img.freepik.com/free-photo/shrimp-other-healthy-food-pita_23-2148381315.jpg?t=st=1709263741~exp=1709267341~hmac=98beda192ae59cbd73099a084d19b09bb05ed8a8457579f39965b88c97aff442&w=740',
+        price: 28.60,
         description:
-          'Kumak nizinny (Bombina bombina) jest reprezentantem starej grupy płazów, której pierwsi przedstawiciele żyli już 150 mln lat temu. Przypomina trochę małą ropuchę i podobnie jak u niej, w jego skórze znajdują się liczne, duże gruczoły jadowe. Jeden z mniejszych płazów. Długość nie przekracza 5,5 cm. Samce kumaka wydają bardzo charakterystyczny głos kum-kum, od którego pochodzi określenie „kumkanie”.'
+          'Ten wrap łączy w sobie słodko-ostrą marynatę krewetek z chrupiącą sałatą, świeżym mango, papryką i kolendrą. Podane w lekkiej tortilli, jest to idealna propozycja dla tych, którzy szukają czegoś wyjątkowego.'
       }
     ]
   },
   {
-    name: 'snakes',
+    name: 'SANDWICHE',
     content: [
       {
         id: 1,
-        name: `Wąż zbożowy "Classic"`,
-        imgSrc: 'https://www.everythingreptiles.com/wp-content/uploads/2020/08/Miami-Phase.jpg',
-        price: 350,
+        name: `Alpejski Mistrz`,
+        imgSrc: 'https://img.freepik.com/free-photo/fresh-tasty-sandwich_144627-17226.jpg?t=st=1709263957~exp=1709267557~hmac=96078781d2311979ef5e1d7be1f4420e7544fc80f7c4b07fe016be67cb083343&w=1060',
+        price: 23.20,
         description:
-          'Popularny wąż w hodowli. Idealny na rozpoczęcie przygody z węzami. Posiadają różne odmiany barwne. Węże o spokojnym usposobieniu, bardzo aktywne i ciekawskie.'
+          'Ten sandwich to prawdziwa uczta dla miłośników górskich smaków. Zawiera grubo krojone plastry wędzonego sera górskiego, szynkę z dzika, rukolę, cienkie plastry gruszki i musztardę miodową, wszystko umieszczone między chrupiącymi kawałkami chleba wiejskiego. Idealny dla poszukiwaczy przygód.'
       },
       {
         id: 2,
-        name: 'Pyton królewski',
+        name: 'Oceaniczna Bryza',
         imgSrc:
-          'https://petkeen.com/wp-content/uploads/2021/09/ball-python-lying-on-a-tree_BikerPhoto-Shutterstock.jpg',
-        price: 300,
+          'https://img.freepik.com/free-photo/high-angle-triangle-sandwiches-with-tomatoes_23-2148640141.jpg?t=st=1709264114~exp=1709267714~hmac=cc9f841107dba9d9ea7acd007f41e2068b415f964018a601337162e7850096ce&w=740',
+        price: 15.30,
         description:
-          'Najmniejszy (dorasta do 150cm) i najbardziej popularny pyton w naszych domach. Pyton królewski to nieagresywny wąż, który dzięki swojemu ubarwieniu i krępej budowie będzie ozdobą każdego terrarium.'
+          'Wyjątkowy sandwich, który przenosi smakiem nad morze. Zawiera delikatnie wędzonego łososia, świeży twarożek z koperkiem, plasterki ogórka, kapary i czerwoną cebulę. Podawany na lekko opiekanym chlebie ziołowym, jest doskonały na letni obiad.'
       },
       {
         id: 3,
-        name: 'Boa dusiciel',
-        imgSrc: 'https://a.allegroimg.com/original/12bbab/bc79a40b4937abde895e8ad49345',
-        price: 60,
+        name: 'Garden Delight',
+        imgSrc: 'https://img.freepik.com/premium-psd/sandwich-with-ham-vegetables-transparent-background-created-with-generative-ai_916303-5124.jpg?w=740',
+        price: 19.50,
         description:
-          'Średniej wielkości wąż (dorasta do 2 metrów), a także jeden z najbardziej popularnych przedstawicieli rodziny Boa w naszych domach. Boa dusiciel to nieagresywny wąż, który dzięki swojemu ubarwieniu i krępej budowie będzie ozdobą każdego terrarium.'
+          'Wegetariańska propozycja, która zachwyci każdego. Składa się z grillowanych plastrów bakłażana, cukinii, papryki, pesto z bazylii i koziego sera, wszystko złożone na świeżym chlebie ciabatta. To połączenie świeżych warzyw i intensywnych smaków sprawia, że jest to idealny wybór dla tych, którzy cenią sobie zdrowe, ale pełne smaku posiłki.'
       }
     ]
   },
   {
-    name: 'spiders',
+    name: 'FRENCH FRIES',
     content: [
       {
         id: 1,
-        name: 'Skakun królewski',
-        imgSrc: 'https://www.thespidershop.co.uk/wp-content/uploads/2022/02/p_regius_3.jpg',
-        price: 70,
-        description: 'Treść opisu w przygotowaniu'
+        name: 'Cheesy Volcano Fries',
+        imgSrc: 'https://img.freepik.com/premium-photo/fries_1339-36339.jpg?w=1380',
+        price: 9.90,
+        description: 'Te frytki to prawdziwy wybuch smaku. Pokryte są bogatym, topionym serem cheddar, ognistymi jalapenos i chrupiącym bekonem. Każdy kęs dostarcza intensywne doznania smakowe, idealne dla poszukiwaczy mocnych wrażeń.'
       },
       {
         id: 2,
-        name: 'Brachypelma boehmei',
-        imgSrc: 'https://jadowite.pl/1128-large_default/brachypelma-boehmei-l1-05cm.jpg',
-        price: 40,
-        description: 'Treść opisu w przygotowaniu'
+        name: 'Truffle Elegance Fries',
+        imgSrc: 'https://img.freepik.com/free-photo/front-view-tasty-ham-sandwiches-with-french-fries-getting-eat-by-female-dark-surface_179666-34660.jpg?t=st=1709264981~exp=1709268581~hmac=c4e65cef9ba94ebd489624a653e2bb5b490f34d7791c0ccace7a76bb634e69a4&w=1380',
+        price: 11.20,
+        description: 'Elegancka propozycja dla koneserów. Frytki są delikatnie posypane czarnym truflowym solą i serwowane z kremowym sosem czosnkowym. To połączenie luksusu i prostoty, które zadowoli nawet najbardziej wymagające podniebienia'
       },
       {
         id: 3,
-        name: 'Chromatopelma cyaneopubescens',
+        name: 'Sweet Potato Harmony',
         imgSrc:
-          'https://kraina-mrowek.pl/wp-content/uploads/2022/08/Chromatopelma-cyaneopubescens.jpg',
-        price: 50,
-        description: 'Treść opisu w przygotowaniu'
+          'https://img.freepik.com/free-photo/delicious-french-fried-potato-mix-with-chilly-powder-wooden-table_1150-14567.jpg?t=st=1709265133~exp=1709268733~hmac=27f16570a73334dd8ac0467111020b3980f0396717147a3618b72ed25c7a0e5c&w=1380',
+        price: 8.90,
+        description: 'Frytki z batatów, które zachwycają swoją słodyczą. Podawane z delikatnym sosem majonezowo-miodowym, stanowią idealne połączenie słodkich i słonych smaków. Idealne jako przekąska lub dodatek do głównego posiłku.'
       },
       {
         id: 4,
-        name: 'Harpactira pulchripes',
+        name: 'Herb Garden Fries',
         imgSrc:
-          'https://a.allegroimg.com/original/1192c6/ab6b3d17473eb58963dbda01c774/Harpactira-pulchripes-ptasznik-L2',
-        price: 250,
-        description: 'Treść opisu w przygotowaniu'
+          'https://img.freepik.com/free-photo/ruddy-baked-potato-wedges-with-herbs-flat-lay-top-view_2829-19526.jpg?t=st=1709265364~exp=1709268964~hmac=52a4288c144c85d63759859e1de1e7a5bb08375001baaa2a39fba8cae30ca9c8&w=1380',
+        price: 11.40,
+        description: 'Frytki te są posypane świeżymi, siekanymi ziołami takimi jak rozmaryn, tymianek i oregano, co nadaje im wyjątkowy, aromatyczny smak. Podawane z lekkim sosem jogurtowym, są odświeżającą alternatywą dla klasycznych frytek.'
       },
       {
         id: 5,
-        name: 'Haplopelma lividum',
-        imgSrc: 'https://a.allegroimg.com/s1024/0ce3cc/c12f82ba4f7688c52b42dfab4611',
-        price: 150,
-        description: 'Treść opisu w przygotowaniu'
+        name: 'Garlic Parmesan Fries',
+        imgSrc: 'https://img.freepik.com/premium-photo/brazilian-food-cuzcuz-cous-cous-cassava-farofa-delicious-cooked-rice-with-vegetables-sauce_773315-1207.jpg?w=740',
+        price: 10.50,
+        description: 'Połączenie chrupiących frytek z obfitym posypem parmezanu i czosnku. Ten zestaw to uczta dla fanów intensywnych smaków. Frytki są podawane z sosem aioli, co dodaje im kremowości i głębi.'
       },
       {
         id: 6,
-        name: 'Pterinochilus murinus usambara',
-        imgSrc: 'https://3.allegroimg.com/s1024/0c8965/581270ca49a298d9ef867b46e253',
-        price: 40,
-        description: 'Treść opisu w przygotowaniu'
+        name: 'Spicy Kimchi Fries',
+        imgSrc: 'https://img.freepik.com/free-photo/fried-chicken-slices-mixed-with-bell-pepper_140725-2086.jpg?t=st=1709265505~exp=1709269105~hmac=bc77be3f3771420b67781916dd9b5e859371419908206d895b4f9c02f929e191&w=996',
+        price: 9.80,
+        description: 'Dla miłośników kuchni koreańskiej, te frytki to prawdziwy hit. Pokryte są pikantnym kimchi, grillowaną wołowiną i posypane sezamem. To wyjątkowe połączenie smaków, które zaskakuje przy każdym kęsie.'
       },
-      {
-        id: 7,
-        name: 'Caribena versicolor',
-        imgSrc: 'https://arent.pl/wp-content/uploads/2021/11/Caribena-versicolor-8-scaled-1-1.jpg',
-        price: 50,
-        description: 'Treść opisu w przygotowaniu'
-      },
-      {
-        id: 8,
-        name: 'Brachypelma albopilosum',
-        imgSrc: 'https://cdn.pixabay.com/photo/2019/10/27/07/31/tarantula-4580905_1280.jpg',
-        price: 30,
-        description: 'Treść opisu w przygotowaniu'
-      },
-      {
-        id: 9,
-        name: 'Psalmopoeus irminia',
-        imgSrc: 'https://a.allegroimg.com/original/1ef8da/22a320af49dcb735131dcd0f524e',
-        price: 250,
-        description: 'Treść opisu w przygotowaniu'
-      }
+
     ]
   },
   {
-    name: 'food',
+    name: 'MEALS',
     content: [
       {
         id: 1,
-        name: 'Świerszcz bananowy - 100 szt',
+        name: 'Ultimate Bacon Burger Blast',
         imgSrc:
-          'https://a.allegroimg.com/original/11e81c/a7917823414385e28b40498c3648/Swierszcz-bananowy-swierszcze-100-ml',
-        price: 30,
+          'https://img.freepik.com/premium-photo/burger-french-fries-cola-black-background-generative-ai_73944-31759.jpg?w=740',
+        price: 44.20,
         description:
-          'Świerszcze bananowe (Gryllodes sigillatus) dorastają do wielkości od 20 do 25mm. To idealny, bezpieczny i pełnowartościowy pokarm dla młodych pająków oraz niewielkich płazów (drzewołazy) oraz małych jaszczurek wymagających drobnego pokarmu. Owady pochodzą z profesjonalnej hodowli, kupując u nas kupujesz świerszcze bezpośrednio od hodowcy.'
+          'Ten burger to marzenie miłośnika bekonu. Soczysta wołowina, warstwy chrupiącego bekonu, ser cheddar, cebula i sos BBQ. Podawany z złocistymi frytkami i napojem.'
       },
       {
         id: 2,
-        name: 'Świerszcz kubański - 100 szt',
-        imgSrc: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Gryllus_assimilis_male_02.jpg',
-        price: 30,
+        name: 'Spicy Chicken Crunchwrap',
+        imgSrc: 'https://img.freepik.com/free-photo/chicken-fajitos-french-fries_140725-2265.jpg?t=st=1709265890~exp=1709269490~hmac=9811e10567dde43249668749dc9b337c6760684be253cc79c61731fc791fd75c&w=740',
+        price: 41.30,
         description:
-          'Świerszcze kubańskie (Gryllus assimilis) dorastają do wielkości od 25 do 35mm. To idealny, bezpieczny i pełnowartościowy pokarm dla młodych pająków oraz większych jaszczurek wymagających większych owadów. Owady pochodzą z profesjonalnej hodowli, kupując u nas kupujesz świerszcze bezpośrednio od hodowcy.'
+          'Pikantny wrap z kurczakiem, który oferuje idealną równowagę między chrupkością a pikantnością. Zawiera kawałki ostrego kurczaka, sałatę, pomidory, ser i pikantny sos, wszystko zawinięte w chrupiącą tortillę.'
       },
       {
         id: 3,
-        name: 'Karaczan turecki - 100 szt',
-        imgSrc: 'https://www.lesmantes.pl/images/karaczan_turecki_nimfa_1.jpg',
+        name: 'Veggie Delight Bowl',
+        imgSrc: 'https://img.freepik.com/free-photo/salad-with-grilled-vegetables-broccoli_141793-931.jpg?t=st=1709265986~exp=1709269586~hmac=32b0bdfe0ef8c2fb56a7cee6fcfc427b235a168100f71c70d2c07e25374a88cc&w=740',
         price: 40,
         description:
-          'Karaczany tureckie (Shelfordella lateralis) dorastają do wielkości od 22 do 28mm. To idealny, bezpieczny i pełnowartościowy pokarm dla młodych pająków oraz niewielkich płazów (drzewołazy) oraz małych jaszczurek wymagających drobnego pokarmu. Owady pochodzą z profesjonalnej hodowli, kupując u nas kupujesz świerszcze bezpośrednio od hodowcy.'
+          'Pełna smaku i zdrowia miseczka, łącząca grillowane warzywa, quinoa, awokado, nasiona słonecznika, i lekki sos winegret. Idealna dla szukających lekkiej, ale sycącej opcji.'
       },
       {
         id: 4,
-        name: 'Karaczan argentyński - 100 szt',
-        imgSrc: 'http://www.ecoregistros.org/site/images/albumes/32/31306/_MG_8886.JPG',
-        price: 40,
+        name: 'Cheese Lovers Pizza Feast',
+        imgSrc: 'https://img.freepik.com/free-photo/side-view-pizza-wooden-board-glass-white-wine-slice-os-bread-cheese-green-tomatoes-little-white-bowl_176474-120143.jpg?t=st=1709266300~exp=1709269900~hmac=d6b32264bd9b14d845f596315f428b0c30d95b9f62887c64c7196ec448096f78&w=740',
+        price: 42.50,
         description:
-          'Karaczany argentyńskie (Blaptica dubia) dorastają do wielkości od 40 do 50mm. To idealny, bezpieczny i pełnowartościowy pokarm dla pająków oraz większych jaszczurek wymagających większych owadów. Owady pochodzą z profesjonalnej hodowli, kupując u nas kupujesz świerszcze bezpośrednio od hodowcy.'
+          'Pizza dla prawdziwych fanów sera, z bogatą mieszanką mozzarelli, parmezanu, gorgonzoli i sera koziego, z dodatkiem pomidorów i bazylii na cienkim cieście.'
       },
       {
         id: 5,
-        name: 'Mącznik młynarek - 250 ml',
-        imgSrc: 'https://kraina-mrowek.pl/wp-content/uploads/2019/06/Macznik.jpg',
-        price: 15,
+        name: 'Fiery Fries Fiesta',
+        imgSrc: 'https://img.freepik.com/free-photo/classic-burger-with-french-fries-beer_23-2148290585.jpg?t=st=1709266471~exp=1709270071~hmac=8693cfbcb8d5decbdcf5c76affe0d7bb9670c64022c870817d8f71fc2acb309a&w=740',
+        price: 36.80,
         description:
-          'Mącznik młynarek to chrząszcz z rodziny czarnuchowatych. Jego larwy osiągają rozmiar do 30 mm. Owad w naturze występuje zazwyczaj w produktach żywnościowych - np. w niehigienicznie utrzymywanych magazynach zboża i mąki. Świetnie nadaje się jako karmówka dla pająków lub mniejszych jaszczurek.'
+          'Frytki dla odważnych, podane z sosem z habanero, posypane kawałkami jalapeno i polane roztopionym serem. Każdy kęs dostarcza eksplozji ostrego smaku.'
       },
       {
-        id: 5,
-        name: 'Pangea czerwona z owadami - 100g',
+        id: 6,
+        name: 'Golden Fish & Chips Classic',
         imgSrc:
-          'https://a.allegroimg.com/original/112621/35c7a54a4e0cb1029d07daf19de9/Pangea-czerwona-z-owadami-Pangea-with-insects-100-gram-karma-gekon-orzesion',
-        price: 70,
+          'https://as2.ftcdn.net/v2/jpg/06/48/10/83/1000_F_648108361_tyrdDFuRPIpnYEb5XSylDINIF3oodATk.jpg',
+        price: 44.10,
         description:
-          'Najchętniej jedzone pokarmy dla gekonów na świecie. Pangea to pokarm dla gekonów z rodzaju Rhacodactylus, Phelsuma, Lygodactylus oraz innych owocożernych gatunków. Zawiera aturalne suszone owoce, pyłkek pszczeli, probiotyki dla większej odporności oraz izolat białka serwatki, suszone białko jaj oraz spiruline.'
+          'Klasyczne danie w nowej odsłonie, z chrupiącą rybą w panierce i złocistymi frytkami. Podawane z sosem tatarskim i kawałkami cytryny, idealne na każdą okazję'
       },
       {
-        id: 5,
-        name: 'Pangea szara z owadami - 100g',
+        id: 7,
+        name: 'BBQ Rib Rack Combo',
         imgSrc:
-          'https://a.allegroimg.com/original/118d27/af048dac4e6fb487c73a42ecf2fc/Pangea-szara-growth-breeding-50-gram',
-        price: 15,
+          'https://img.freepik.com/free-photo/side-view-steak-with-fried-ribs-with-fried-chicken-potatoes-board-with-vegetable-salad_141793-5115.jpg?t=st=1709266749~exp=1709270349~hmac=1000f3777d9ef49cc491227778df748a96c6f7a39e73dd7305888dfd33d32e6d&w=1380',
+        price: 38.70,
         description:
-          'Najchętniej jedzone pokarmy dla gekonów na świecie. Pangea to pokarm dla gekonów z rodzaju Rhacodactylus, Phelsuma, Lygodactylus oraz innych owocożernych gatunków. Zawiera aturalne suszone owoce, pyłkek pszczeli, probiotyki dla większej odporności oraz izolat białka serwatki, suszone białko jaj oraz spiruline.'
+          'Zestaw dla miłośników żeber, z delikatnymi żeberkami w sosie BBQ, podawane z kukurydzą, coleslaw i pieczonymi ziemniakami. Każde ugryzienie to soczysta przyjemność.'
       }
     ]
   },
   {
-    name: 'plants',
+    name: 'DESERY',
     content: [
       {
         id: 1,
-        name: 'Monstera deliciosa - p12',
+        name: 'Chocolate Lava Dream',
         imgSrc:
-          'https://a.allegroimg.com/original/11b8ba/6b346dd041be978a68278ca7ff74/Najpiekniejsza-Monstera-deliciosa-DZIURAWA-roz-M',
-        price: 30,
+          'https://img.freepik.com/free-photo/front-view-chocolate-cake-with-powdered-sugar_23-2148549960.jpg?t=st=1709266991~exp=1709270591~hmac=3e35f653659f1c80cc756ad77f39c689485c531628eb49885be35eb7f09d680a&w=1380',
+        price: 17,
         description:
-          'Monstera deliciosa to roślina pnąca pochodząca z Ameryki Łanińskiej i Południowej. Obecnie jest znanych 37 garunków monstery. Charakteryzuje się dużymi, dziurawymi liśćmi, które wyglądają jak szwajcarski ser i są bardzo dekoracyjne. Lubi ciepłe, słoneczne stanowisko oraz wysoką wilgotność. Idealnie nadaje się do większych, horyzontalnych terrariów tropikalnych.'
+          'Ten deser to czekoladowe niebo dla każdego miłośnika czekolady. Miękki, bogaty czekoladowy biszkopt z płynnym, gorącym czekoladowym wnętrzem. Podawany z gałką lodów waniliowych, które doskonale równoważą intensywność czekolady.'
       },
       {
         id: 2,
-        name: 'Skrzydłokwiat - p12',
+        name: 'Berry Bliss Cheesecake',
         imgSrc:
-          'https://static3.redcart.pl/templates/images/thumb/7700/1500/1500/pl/0/templates/images/products/7700/0a773279bfcc23cc68d14a123e8d2300.png',
-        price: 25,
+          'https://img.freepik.com/free-photo/closeup-shot-cheesecake-with-jelly-decorated-with-strawberries-berries_181624-39558.jpg?t=st=1709267051~exp=1709270651~hmac=80a026a7a11e919662eb11cda36c796952bd033e0ca6b67970cd12758e314c43&w=1380',
+        price: 17.40,
         description:
-          'Skrzydłokwiat, inaczej zwany skrzydłolistem, jest wiecznie zieloną rośliną pochodzącą z lasów tropikalnych. W naturze jest częścią runa lasów równikowych, charakteryzującego się wysoką wilgotnością oraz zacienieniem. Lubi ciepłe, słoneczne stanowisko oraz wysoką wilgotność. Nadaje się do większości tropikalnych terrariów.'
+          'Delikatny i kremowy sernik na zimno, wzbogacony mieszanką świeżych jagód. Ta słodka i lekko kwaskowa kompozycja zadowoli każdego, kto pragnie orzeźwienia. Podawany na kruchym spodzie z ciasteczek, co dodaje chrupkości.'
       },
       {
         id: 3,
-        name: "Trzykrotka 'Purple Passion' - p9",
+        name: "Caramel Pecan Pie",
         imgSrc:
-          'https://swiat-roslin.7web.pl/storage/app/uploads/public/5d4/7eb/7a1/thumb_64_550_350_0_0_crop.jpg',
+          'https://img.freepik.com/free-photo/crispy-tartlet-with-walnuts-caramel-filling_114579-91547.jpg?t=st=1709267486~exp=1709271086~hmac=8a62e6cc913586a26e3e79590f9ca1862f543bdb5a73ef094dfd7c218410b210&w=740',
         price: 12,
         description:
-          'Wyjątkowa roślina doniczkowa cechująca się szybkim tempem wzrostu oraz łatwością w uprawie i pielęgnacji. Tradescantia fluminensis w naturze zamieszkuje obszar Ameryki Południowej. W warunkach domowych osiąga maksymalnie do około 20-30 centymetrów wysokości. Bardzo często gości w terrariach. Jest niezwykle odporna na błedy w pięlegnacji.'
+          'Klasyczna amerykańska tarta pekan, z głębokim karmelowym nadzieniem, obfitymi kawałkami orzechów pekan. Idealnie skarmelizowana na wierzchu, oferuje bogactwo smaków i tekstur. Podawana z lekką bitą śmietaną'
       },
       {
         id: 4,
-        name: "Soleirolia pospolita 'Dziecięce Łzy' - p9",
+        name: "Tropical Fruit Pavlova",
         imgSrc:
-          "https://3.bp.blogspot.com/-yHiggfmQO0k/UvPlU7QoDmI/AAAAAAABCvc/vUZyCVVeXqM/s1600/IMGP8603+Soleirolia+soleirolii+-+Soleirolia+pospolita+'Dzieci%C4%99ce+%C5%82zy'.JPG",
-        price: 20,
+          "https://img.freepik.com/free-photo/ice-cream-with-strawberry-banana-orange-white-plate-with-spoon_114579-33827.jpg?t=st=1709267539~exp=1709271139~hmac=0ad6c3fbfc114bb549f6bf9f48231c7d6664444c4e29551eb57b6256e1058175&w=1380",
+        price: 16.70,
         description:
-          'Solejrolia rozesłana pochodzi z północnych wybrzeży i z wysp Morza Śródziemnego, gdzie często jest wykorzystywana jako ozdobne poduchowate wypełnienie szczelin między płytami chodnikowymi i kamieniami. Jest delikatną, ale gęsto rosnącą rośliną, która dorasta do 50 cm. Szybko się rozrasta, a jej pędy przewieszają się, co sprawia wrażenie „wylewania się rośliny” z doniczki.'
+          'Lekka i puszysta beza, z wierzchu chrupiąca, w środku miękka, udekorowana kremem mascarpone i egzotycznymi owocami, takimi jak mango, kiwi i marakuja. Deser łączy w sobie słodycz i kwasowość, idealny na letnie dni.'
       },
       {
         id: 5,
-        name: "Bluszcz Hedera helix 'Variegata'",
+        name: "Classic Tiramisu",
         imgSrc:
-          'https://zielony-parapet.pl/27268-thickbox_default/hedera-helix-variegata-bluszcz.jpg',
+          'https://img.freepik.com/free-photo/slice-cake-with-cocoa-powder_140725-170.jpg?t=st=1709267624~exp=1709271224~hmac=cb9775fc85478826bd4e28baaa9896479fb1ddb8416da066ca07673f4e5e957a&w=996',
         price: 15,
         description:
-          'Hedera helix jest gatunkiem wiecznie zielonego pnącza o bujnym ulistnieniu i długich, czepnych pędach. Roślina śródziemnomorsko-atlantycka. W naturalnym środowisku cechuje się szybkim wzrostem i pokaźnym rozmiarem docelowym. Ma duże zdolności adaptacyjne oraz cechującą ją wytrzymałość. Pędy osiągają nawet kilka metrów długości. Rozrasta się jednak wolniej niż jej zielonolistna forma, od której pochodzi.'
+          'Włoski deser par excellence, łączący warstwy nasączone kawą biszkopty ladyfingers z delikatnym kremem mascarpone, posypane kakao. Każda warstwa tiramisu to obietnica kremowej, kawowej rozkoszy, która rozpływa się w ustach.'
       }
     ]
   },
   {
-    name: 'others',
+    name: 'DRINKS',
     content: [
       {
         id: 1,
-        name: 'Pęseta prosta stalowa 25cm',
+        name: 'Classic Lemonade',
         imgSrc:
-          'https://5.allegroimg.com/s512/019a49/6c33214d4cbb8ce63e895f760a05/PROFESJONALNA-PENSETA-PINCETA-PENCETA-prosta-25-cm',
-        price: 20,
+          'https://img.freepik.com/premium-photo/summer-refreshing-lemonade-with-lemons-balcony-generative-ai_1645-6506.jpg?w=996',
+        price: 6.70,
         description:
-          'Pęseta to jedno z najważniejszym narzędzi każdego terrrarysty. Pomocna podczas karmienia oraz sprzątania. Nasze pęsety są wygodne i wykonane ze stali najwyższej jakości'
+          ' Idealny napój na upalne dni, łączący świeżo wyciśnięty sok z cytryn z odrobiną słodkości i wody. Orzeźwiający, z lekko kwaskowym posmakiem.'
       },
       {
         id: 2,
-        name: 'Torf kokosowy 9 litrów',
-        imgSrc: 'https://ireland.apollo.olxcdn.com/v1/files/k77842epbe8w2-PL/image;s=644x461',
-        price: 300,
+        name: 'Iced Tea',
+        imgSrc: 'https://img.freepik.com/free-photo/cocktail_23-2148176795.jpg?t=st=1709267910~exp=1709271510~hmac=429680c6731b13c35f2da8baa083c99bcd581dbba8fba1355f5f3c69dc4e4129&w=740',
+        price: 7.80,
         description:
-          'Włókno kokosowe sprasowane w kostkę o wadze 650g. Po zalaniu wodą (ok 4l) powstaje ok 9 litrów podłoża do terrariów wilgotnych i półwilgotnych. Nie pleśnieje, dobrze utrzymuje wilgoć. Każda kostka jest fabrycznie ofoliowana. Nie jest to zwykły torf ogrodniczy.'
+          'Chłodna, orzeźwiająca herbata mrożona, często serwowana z cytryną lub miętą. Może być słodzona lub niesłodzona, doskonała na każdą porę roku.'
       },
       {
         id: 3,
-        name: 'Miseczka/wyspa wieszana 2 w 1  Repti-Zoo',
-        imgSrc: 'https://cdn.rostlinna-akvaria.cz/upload/70315-0909532746.jpg',
-        price: 60,
+        name: 'Espresso Martini',
+        imgSrc: 'https://img.freepik.com/free-photo/coffee-cocktail-decorated-with-coffee-beans_140725-7817.jpg?t=st=1709267990~exp=1709271590~hmac=d814f2fddbc0a62cfd1000a4b5977d2714c9783ee16fffdc2bd392cdf9a1309a&w=740',
+        price: 6.50,
         description:
-          'Wisząca miseczka na pokarm i wodę oraz rampa dla zwierzęcia. W zestawie znajduje się uchwyt przyssawkowy z systemem dokręcenia/dociskania przyssawki.'
+          'Elegancki koktajl łączący espresso, wódkę, i likier kawowy. Idealny jako "pick-me-up" po kolacji, łączy w sobie głębię kawy z delikatną słodyczą.'
       },
       {
         id: 4,
-        name: 'Miseczka na jedzenie',
-        imgSrc: 'https://www.invital.pl/upload_pl/32050-1107234486_v.jpg',
-        price: 250,
+        name: 'Mango Smoothie',
+        imgSrc: 'https://img.freepik.com/free-photo/mango-juice-glass-blue-surface_1150-41955.jpg?t=st=1709268035~exp=1709271635~hmac=3a1f0d895033e1e82a5d9cee7cd6d7e5afaa7e4e536e8c3f612535cdef80ffc6&w=740',
+        price: 7.70,
         description:
-          'Miseczka na wodę lub pokarm dla zwierząt terraryjnych. Nadaje się dla gadów, płazów, owadów i pajęczaków. Doskonale wpasowuje się w wystrój terrarium typu pustynnego i stepowego. Jest bardzo stabilna, nawet dużym zwierzętom nie będzie łatwo jej przewrócić. Wykonana z bezpiecznych materiałów, zapewniających trwałość i łatwość czyszczenia.'
+          'Kremowy i gęsty napój z dojrzałych mango, często mieszany z jogurtem lub mlekiem. Słodki i odżywczy, doskonały jako pożywny deser lub przekąska.'
       }
     ]
   }
@@ -552,39 +434,39 @@ const storeItems = [
 const geckoInfo = [
   {
     id: 0,
-    title: 'Gekon orzęsiony – opis gatunku',
+    title: '"Burger Bonanza"',
     content:
-      'Gekon orzęsiony (Correlophus ciliatus) to gatunek jaszczurki z rodzaju Correlophus z rodziny Diplodactylidae. Gatunek gekona orzęsionego został opisany w 1866 roku przez Guichenota. Gekony orzęsione osiągają długość ciała do 25 cm, a bez ogona ok. 11 cm. Masa ciała dorosłego gekona orzęsionego sięga 65 gramów. Gekony orzęsione średniej wielkości mierzą do 22 cm i ważą do 45 gramów. Z kolei młode jaszczurki po wykluciu mierzą do 7 cm i ważą zaledwie 1,5 grama.'
+      'Ta promocja to prawdziwe święto dla miłośników burgerów! Przy zakupie jednego pełnowartościowego burgera, drugi otrzymasz za połowę ceny. To idealna okazja, aby zaprosić przyjaciela i razem delektować się wyjątkowymi smakami naszych burgerów, bez obciążania portfela. Nie przegap tej okazji, przyjdź i sprawdź, jak prawdziwy burger smakuje w towarzystwie. Promocja obowiązuje w każdy wtorek, dając Ci doskonały powód, aby umilić sobie początek tygodnia..'
   },
   {
     id: 1,
-    title: 'Jak wygląda gekon orzęsiony?',
+    title: '"Poranny Power Start"',
     content:
-      'To właśnie ze względu na swój wygląd gekon orzęsiony jest jednym z najpopularniejszych gatunków wśród gekonów w hodowlach. W USA ten gatunek jaszczurki jest równie popularny, jak gekon lamparci. Ciało gekona orzęsionego pokryte jest okrągłymi łuskami. Wyrostki skórne znajdują się nad oczami i biegną wzdłuż ciała gekona aż do nasady ogona. Ogon gekona orzęsionego jest chwytny, spłaszczony na końcu, przypomina wiosło, z blaszkami, które odpowiadają za przyleganie do powierzchni. Co ciekawe, większość gekonów orzęsionych, żyjących w naturze nie posiada ogona, ponieważ temu gatunkowi ogon nie odrasta. Głowa gekona orzęsionego jest spłaszczona o trójkątnym kształcie klina. Oczy pozbawione są powiek, a do ich czyszczenia gekon używa swojego długiego języka. Spodnia część palców pokryta jest lamelami, zbudowanymi z milionów wyrostków skórnych, które odpowiadają za przyleganie do powierzchni.'
+      'Czy wiesz, że poranek to najlepszy czas na zasilenie organizmu energią? Nasza specjalna promocja śniadaniowa oferuje 20% zniżki na wszystkie pozycje z menu śniadaniowego. Od klasycznych kanapek po świeże sałatki i energetyczne smoothie, każdy znajdzie coś dla siebie. To doskonała okazja, aby przyjść z rodziną lub przyjaciółmi i cieszyć się pierwszym posiłkiem dnia w przyjemnej atmosferze. Promocja dostępna jest od poniedziałku do piątku w godzinach porannych. Zacznij dzień od dobrego smaku i energii, której dostarczą nasze śniadania..'
   },
   {
     id: 2,
-    title: 'Tryb życia gekona orzęsionego',
-    content: `Gekon orzęsiony zamieszkuje ciepłe i wilgotne lasy deszczowe Nowej Kaledonii, położonej około 1400 km od wybrzeży Australii. Średnia wilgotność na wyspie wynosi ok. 70%, z kolei średnia temperatura to 25,5 °C. Nie są to więc temperatury tropikalne i w ten sposób o gekonie orzęsionym nie należy myśleć w hodowli. Stosowanie wyższych temperatury w terrarium dla gekona orzęsionego może skończyć się jego przegrzaniem, a w ekstremalnych sytuacjach nawet śmiercią. Gekon orzęsiony to jaszczurka, która prowadzi nocny tryb życia. W ciągu dnia gekon orzęsiony przebywa w kryjówkach, natomiast w nocy poluje. Do polowań gekon orzęsiony wykorzystuje chwytny ogon oraz palce i końcówkę ogona pokrytą lamelami z wyrostkami skórnymi. Gekon ten jest doskonałym skoczkiem, do czego wykorzystuje fałdy skórne przebiegające wzdłuż ciała, które działają, jak spadochron.`
+    title: 'Family Fun Day',
+    content: ` Niedziela w naszej restauracji to dzień rodzinny. Dla każdej rodziny zamawiającej dania na sumę powyżej 50 złotych, specjalny deser na słodko dla całej rodziny gratis! To nasz sposób, by docenić czas spędzony razem, oferując coś, co sprawi radość zarówno dzieciom, jak i dorosłym. Nasze desery, przygotowywane z myślą o każdym członku rodziny.`
   },
   {
     id: 3,
-    title: 'Co je gekon orzęsiony?',
+    title: '"Wieczór Pizzy"',
     content:
-      'Czym karmić gekona orzęsionego? Przede wszystkim należy wiedzieć, że ten gatunek gekona jest wszystkożerny. Można karmić go zarówno bezkręgowcami, jak i owocami oraz nektarem kwiatowym. Kluczowe w naturalnej diecie gekona orzęsionego są owady, można podawać mu karaczany argentyńskie, świerszcze i szarańczę. Pokarm powinien być suplementowany wapniem oraz mieszankami witamin dla jaszczurek. Co ciekawe gekon orzęsiony jest jedną z niewielu jaszczurek, której nie musimy karmić żywymi owadami. Pozwala na to dieta Allena Repashy`ego, która jest w pełni zbilansowanym, kompletnym pokarmem dla gekonów. Oczywiście dietę tą można wzbogacać o owady i owoce oraz nektary, by urozmaicić gekonowi orzęsionemu menu. Młode gekony orzęsione należy karmić każdego dnia. W przypadku dorosłych gekonów karmienie powinno odbywać się co dwa dni. W przypadku diety łączonej (Repashy + owady) bezkręgowce należy dodatkowo suplementować raz w tygodniu, posypując je wapniem oraz mieszanką witamin i minerałów dla gekonów (bez witaminy D3).'
+      'Każdy czwartek w naszej restauracji to wieczór pizzy! Przy zakupie dwóch dowolnych pizz, trzecia pizza w prezencie! To świetna okazja, by zorganizować wieczór filmowy z przyjaciółmi lub rodziną i cieszyć się smakiem włoskiej pizzy bez wychodzenia z domu. Nasze pizze, przygotowywane na cienkim cieście z wyselekcjonowanych składników, zadowolą nawet najbardziej wymagające podniebienia. Nie przegap okazji na wspólny, smaczny wieczór..'
   },
   {
     id: 4,
-    title: 'Hodowla gekona orzęsionego',
+    title: '"Frytkowa Festa"',
     content:
-      'Gekony osiągają dojrzałość płciową między 8 a 12 miesiącem życia. Nie oznacza to jednak, że należy je od razu rozmnażać. Ostrożni hodowcy zalecają, by samica skończyła 2 lata i ważyła ok. 65 gramów. Samce powinny mieć około 9 miesięcy. Cykl rozrodczy samicy gekona może trwać cały rok, wskazane jest jednak jego przerwanie na trzy miesiące w okresie zimowym. Samica składa dwa jaja co 25-40 dni. Samica powinna mieć możliwość złożyć jaja w pojemniku do inkubacji wypełnionym wermikulitem, który należy zraszać w proporcji 100 g podłoża + 50 g wody. Pojemnik należy otwierać raz w tygodniu, by sprawdzić wilgotność i dostarczyć świeżego powietrza. Pojemnik należy inkubować w temperaturze około 24,5-25,5°C – czas inkubacji w takiej temperaturze to około 60 dni. Dopuszczalna temperatura inkubacji waha się od 20 do 29°C. Przy temperaturze ok. 20°C czas inkubacji może wydłużyć się do 140 dni.'
+      'Sobota to dzień, w którym nasze frytki grają główną rolę! Do każdego zamówienia powyżej 20 złotych, porcja złocistych, chrupiących frytek gratis! To idealny dodatek do każdego dania, który umili każde spotkanie. Nasze frytki, znane z wyjątkowego smaku i chrupkości, teraz mogą być Twoje bez dodatkowych kosztów. Przyjdź i przekonaj się sam, jak niewiele potrzeba, by sprawić sobie i bliskim małą radość.'
   },
   {
     id: 5,
-    title: 'Terrarium dla gekona orzęsionego',
+    title: '"Noc Shakeków"',
     content:
-      'Terrarium dla gekona orzęsionego może być szklane lub drewniane. To drugie należy odpowiednio zabezpieczyć przed wilgocią Podłoże terrarium powinno być chłonne i trzymać wilgoć – dobrze sprawdzi się np. substrat kokosowy, chociaż dostępne są inne podłoża np. kora, torf czy forest floor. Terrarium spryskujemy wodą raz dziennie wieczorem. Zostawiamy w nim również płytką miseczkę z wodą. Temperatura w terrarium powinna oscylować między 22, a 25°C, zatem może obyć się bez dodatkowego ogrzewania. Temperatura podwyższona miejscowo do 27°C może mieć pozytywny wpływ, podczas rozmnażania gekonów. Zimą (przez dwa-trzy miesiące) temperaturę warto obniżyć do 18-21°C, a samca oddzielić od samic. Jest to również okres odpoczynku od rozmnażania. Oświetlenie w terrarium może być wykorzystywane, by wytworzyć cykl 12-14 godzinnych dni świetlnych, które gekony będą przesypiać. Takie rozwiązanie będzie też wpływało korzystanie na wzrost roślin w terrarium. By obserwować gekona orzęsionego nocą można zamontować klasyczną czerwoną lampę terrarystyczną. Terrarium można udekorować konarami, lianami oraz rurkami kokosowymi. Jeżeli terrarium będzie dodatkowo oświetlane pod żywe rośliny (np. Dracaena deremensis, Ficus benjamina), to gekon orzęsiony powinien mieć zapewnione ciemne schowki, w których będzie mógł przespać porę dzienną.'
+      'Marzysz o słodkim zakończeniu dnia? Nasza specjalna oferta na shake\'i jest właśnie dla Ciebie! W każdy piątek, od godziny 20:00, każdy shake w naszym menu jest dostępny z 30% zniżką. To doskonała okazja, aby spróbować różnych smaków i znaleźć swojego ulubionego. Od klasycznych, po te z egzotycznymi owocami, każdy shake jest przygotowany z najwyższą starannością i najlepszych składników. Niech ten słodki rytuał stanie się Twoim piątkowym zwyczajem.'
   }
 ];
 
-export { sliderData, storeMenu, storeItems, geckos, geckoInfo };
+export { sliderData, storeMenu, storeItems, geckoInfo };
